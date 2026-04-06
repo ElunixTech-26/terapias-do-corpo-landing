@@ -84,7 +84,7 @@
     transform: translateY(-2px);
 }
 
- .iconsContainer {
+.iconsContainer {
     display: grid;
     grid-template-columns: 1fr;
     padding: .4em 1.2em;
@@ -109,7 +109,7 @@
         padding: .4em 9.6em;
         align-items: center;
         margin-top: 3em;
-        margin-bottom: 2em;
+        margin-bottom: 4em;
     }
 
     .imageContainer {

@@ -19,7 +19,7 @@ export default function Hero(){
             </div>
 
             <div className={style.iconsContainer}>
-                {/* Ícone 1 */}
+
                 <Link href={'#'} className='flex flex-col items-center gap-4'>
                     <Image
                         src="/pelvi-icon.svg" 
@@ -32,7 +32,6 @@ export default function Hero(){
                     <span className={style.iconLegend}>Fisioterapia Pélvica</span>
                 </Link>
 
-                {/* Ícone 2 */}
                 <Link href={'#'} className='flex flex-col items-center gap-4'>
                     <Image
                         src="/masso-icon.svg" 
@@ -45,7 +44,6 @@ export default function Hero(){
                     <span className={style.iconLegend}>Massoterapia</span>
                 </Link>
 
-                {/* Ícone 3 */}
                 <Link href={'#'} className='flex flex-col items-center gap-4'>
                     <Image
                         src="/estetica-icon.svg" 
