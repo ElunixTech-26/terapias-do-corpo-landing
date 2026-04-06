@@ -5,7 +5,6 @@ import styles from './header.module.css';
 import Image from 'next/image';
 import { useState } from 'react';
 
-
 export default function Header(){
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,30 +13,27 @@ export default function Header(){
     const closeMenu = () => setIsMenuOpen(false);
 
     return(
-
-        <header className='flex items-center justify-around'>
+        <header className={styles.header}>
             
             <div className={styles.headerContainer}>
-                <Link href="/" className="flex items-center gap-2 z-[1001]" >
+                <Link href="/" className="flex items-center gap-2" >
                     <Image 
                         src="/header-logo.svg" 
                         alt="Logo Terapias do Corpo" 
-                        width={100} 
-                        height={100} 
-                        className="h-auto w-48"
+                        width={180}  
+                        height={60} 
+                        className="h-auto w-36 md:w-48"  
                         loading='eager'
                     />
                 </Link>
 
                 <nav className='hidden md:block'>
-                    <ul className='flex items-center gap-8'>
-
+                    <ul className='flex items-center gap-8 font-medium'>
                         <li><Link className={styles.navLink} href={"/"}>Home</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Fisioterapia</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Outros Serviços</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
                         <li><Link className={styles.navLinkBtn} href={"/"}>Contato</Link></li>
-                    
                     </ul>
                 </nav>
 
@@ -46,7 +42,6 @@ export default function Header(){
                     className={`${styles.menuToggle} ${isMenuOpen ? styles.active : ""}`} 
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     aria-label={isMenuOpen ? "Fechar Menu" : "Abrir Menu"}
-                    
                 >
                     <span></span>
                     <span></span>
@@ -56,7 +51,6 @@ export default function Header(){
                 {/* Mobile Menu */}
                 <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuActive : ""}`}>
                     <ul className="font-inter">
-                        
                         <li><Link href="/" onClick={closeMenu}>Home</Link></li>
                         <li><Link href="/" onClick={closeMenu}>Fisioterapia</Link></li>
                         <li><Link href="/" onClick={closeMenu}>Outros Serviços</Link></li>
@@ -70,13 +64,7 @@ export default function Header(){
                     </ul>
                 </div>
 
-
-
             </div>
-
-            
         </header>
-
-        
     );
 }

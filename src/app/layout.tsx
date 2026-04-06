@@ -14,6 +14,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Terapias do Corpo",
   description: "A definir....",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: ["/icon-96x96.png", "/favicon.ico"],
+    apple: "/apple-icon.png"
+  }
 };
 
 export default function RootLayout({
