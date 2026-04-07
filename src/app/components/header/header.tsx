@@ -33,7 +33,7 @@ export default function Header(){
                         <li><Link className={styles.navLink} href={"/"}>Fisioterapia</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Outros Serviços</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
-                        <li><Link className={styles.navLinkBtn} href={"/"}>Contato</Link></li>
+                        <li><Link className={`secondaryBtn`} href={"/"}>Contato</Link></li>
                     </ul>
                 </nav>
 
@@ -59,7 +59,7 @@ export default function Header(){
                         <div className={styles.mobileDivContato}>
                             <h2>Fale Conosco</h2>
                             <p>Entenda o seu caso e qual a melhor estratégia de tratamento para você.</p>
-                            <button>Agendar Avaliação</button>
+                            <button className={`secondaryBtn`}>Agendar Avaliação</button>
                         </div>
                     </ul>
                 </div>

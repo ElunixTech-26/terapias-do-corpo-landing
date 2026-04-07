@@ -1,3 +1,4 @@
+import About from "./components/about/about";
 import Authority from "./components/authority/authority";
 import Hero from "./components/hero/hero";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Authority />
+      <About />
     </>
   )
 }

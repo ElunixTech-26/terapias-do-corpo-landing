@@ -13,7 +13,7 @@ export default function Hero(){
                         <span>Cuidado</span> especializado para o seu <span>bem-estar</span> físico e íntimo
                     </h1>
                     <p>Fisioterapia pélvica especializada e massoterapia com atendimento humanizado, respeitoso e individualizado.</p>
-                    <button>AGENDAR AVALIAÇÃO</button>
+                    <button className="primaryBtn">AGENDAR AVALIAÇÃO</button>
                 </div>
                 
             </div>
