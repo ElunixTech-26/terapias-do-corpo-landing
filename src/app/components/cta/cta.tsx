@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Cta(){
     return (
 
-        <section className={styles.cta}>
+        <section className={styles.cta} id="contact">
             <div className={styles.ctaContainer}>
 
 
@@ -25,7 +25,7 @@ export default function Cta(){
                     </div>
 
                     <a
-                        href="https://wa.me/5551994089100?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
+                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.ctaButton}>

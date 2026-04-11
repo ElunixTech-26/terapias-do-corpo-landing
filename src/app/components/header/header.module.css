@@ -167,9 +167,11 @@
     line-height: 1.5;
 }
 
-.mobileDivContato button {
+.mobileDivContato a {
     width: 100%;
     margin-top: 0.5em;
+    color: white;
+    font-size: 1.1em;
 }
 
 @media (min-width: 768px) {

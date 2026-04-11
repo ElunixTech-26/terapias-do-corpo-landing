@@ -133,7 +133,7 @@
         max-width: 100%;
     }    
     
-    .textArea button {
+    .textArea a {
         max-width: 244px;
         padding: .6em;
     }

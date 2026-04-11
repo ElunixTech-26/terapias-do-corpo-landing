@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 
 import "./globals.css";
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -14,9 +15,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Terapias do Corpo",
   description: "A definir....",
-  manifest: "/site.webmanifest",
+  manifest: "/manifest.json",
   icons: {
-    icon: ["/icon-96x96.png", "/favicon.ico"],
+    icon: "/favicon.ico",
     apple: "/apple-icon.png"
   }
 };
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${inter.variable}`}>
         <Header />
         {children}
+        <Footer />
         
       </body>
     </html>

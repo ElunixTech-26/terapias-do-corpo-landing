@@ -22,7 +22,7 @@ export default function Header(){
                         alt="Logo Terapias do Corpo" 
                         width={180}  
                         height={60} 
-                        className="h-auto w-36 md:w-48"  
+                        className="h-auto w-36 md:w-48 z-9999"  
                         loading='eager'
                     />
                 </Link>
@@ -33,7 +33,10 @@ export default function Header(){
                         <li><Link className={styles.navLink} href={"/"}>Fisioterapia</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Outros Serviços</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
-                        <li><Link className={`secondaryBtn`} href={"/"}>Contato</Link></li>
+                        <li><a className={`secondaryBtn`} 
+                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
+                        target="_blank"
+                        rel="noopener noreferrer">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -59,7 +62,9 @@ export default function Header(){
                         <div className={styles.mobileDivContato}>
                             <h2>Fale Conosco</h2>
                             <p>Entenda o seu caso e qual a melhor estratégia de tratamento para você.</p>
-                            <button className={`secondaryBtn`}>Agendar Avaliação</button>
+                            <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
+                            target="_blank"
+                            rel="noopener noreferrer" className={`secondaryBtn`}>Agendar Avaliação</a>
                         </div>
                     </ul>
                 </div>
