@@ -13,8 +13,6 @@ export default function Home() {
       <About />
       <Trans />
       <Space />
-
-      <Cta />
     </>
   )
 }

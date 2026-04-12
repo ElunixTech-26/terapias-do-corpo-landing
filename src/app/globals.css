@@ -2,7 +2,10 @@
 
 :root {
   --background: #FAF9F9;
+  --secondary-background: rgba(217, 217, 217, 0.5);
+  --third-background: rgba(255, 254, 254, 0.51);
   --foreground: #000;
+
   --primary-color: #1F8374;
   --gold-accent-color: #B98338;
   --green-accent-color: #25D366;

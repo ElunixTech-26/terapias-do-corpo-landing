@@ -30,8 +30,12 @@ export default function Header(){
                 <nav className='hidden md:block'>
                     <ul className='flex items-center gap-8 font-medium'>
                         <li><Link className={styles.navLink} href={"/"}>Home</Link></li>
-                        <li><Link className={styles.navLink} href={"/"}>Fisioterapia</Link></li>
-                        <li><Link className={styles.navLink} href={"/"}>Outros Serviços</Link></li>
+
+                        <li><Link className={styles.navLink} 
+                        href={'tratamentos/fisioterapia-pelvica/'}>Fisioterapia Pélvica</Link></li>
+
+                        <li><Link className={styles.navLink} href={"/"}>Estética</Link></li>
+                        <li><Link className={styles.navLink} href={"/"}>Massoterapia</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
                         <li><a className={`secondaryBtn`} 
                         href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
@@ -55,8 +59,10 @@ export default function Header(){
                 <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuActive : ""}`}>
                     <ul className="font-inter">
                         <li><Link href="/" onClick={closeMenu}>Home</Link></li>
-                        <li><Link href="/" onClick={closeMenu}>Fisioterapia</Link></li>
-                        <li><Link href="/" onClick={closeMenu}>Outros Serviços</Link></li>
+                        <li><Link href={'tratamentos/fisioterapia-pelvica/'}
+                         onClick={closeMenu}>Fisioterapia Pélvica</Link></li>
+                        <li><Link href="/" onClick={closeMenu}>Estética</Link></li>
+                        <li><Link href="/" onClick={closeMenu}>Massoterapia</Link></li>
                         <li><Link href="/" onClick={closeMenu}>Blog</Link></li>
 
                         <div className={styles.mobileDivContato}>

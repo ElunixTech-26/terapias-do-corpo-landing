@@ -4,10 +4,11 @@ import { Inter } from 'next/font/google'
 import "./globals.css";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import Cta from "./components/cta/cta";
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '600', '700'], 
+  weight: ['200', '400', '600', '700'], 
   variable: '--font-inter-next',
 })
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={`${inter.variable}`}>
         <Header />
         {children}
+        <Cta />
         <Footer />
         
       </body>

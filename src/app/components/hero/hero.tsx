@@ -23,7 +23,7 @@ export default function Hero(){
 
             <div className={style.iconsContainer}>
 
-                <Link href={'#'} className='flex flex-col items-center gap-4'>
+                <Link href={'tratamentos/fisioterapia-pelvica/'} className='flex flex-col items-center gap-4'>
                     <Image
                         src="/pelvi-icon.svg" 
                         alt="Simbolo representando uma pelvi" 
