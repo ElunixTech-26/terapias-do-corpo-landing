@@ -155,6 +155,43 @@ export default function FisioterapiaPelvica() {
                 )}
             </AnimatePresence>
 
+
+            {/* Seção Sobre a Fisioterapeuta */}
+            <section className={styles.sobreAFisio}>
+                <div className={styles.sobreAFisioContainer}>
+                    <motion.div 
+                        className={styles.textAboutSection}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.3 }}
+                        variants={staggerContainer}
+                    >
+                        <motion.h3 variants={fadeInUp} className={styles.aboutTitle}>Daniele Elgert</motion.h3>
+                        <motion.div variants={fadeInUp} className={styles.textContainer}>
+                            <p className={styles.aboutText}>Especialista em Fisioterapia Pélvica com foco em saúde integral e humanizada.</p>
+                            <p className={styles.aboutText}>Atua com evidências científicas para proporcionar autonomia e bem-estar aos seus pacientes.</p>
+                            <p className={styles.aboutText}>CREFITO: XXXX-X | Formação em Fisioterapia Pélvica Avançada.</p>
+                        </motion.div>
+                    </motion.div>
+
+                    <motion.div 
+                        className={styles.imageWrapperSobre}
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ duration: 0.8 }}
+                    > 
+                        <Image 
+                            src="/fisioterapeuta-dani.JPG" 
+                            alt="Daniele Elgert"
+                            fill
+                            priority
+                            className={styles.aboutImg}
+                        />
+                    </motion.div>
+                </div>
+            </section>
+
         </main>
     );
 }

@@ -83,12 +83,8 @@
   max-width: 1200px;
   margin: 3em auto;
   display: grid;
-  /* gap: 30px; definir para o outro depois especifico */
-}
-
-.grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .initSectionText{
@@ -209,6 +205,7 @@
 .sobreAFisio{
     width: 100%;
     padding: 1em 0;
+    overflow: hidden;
 }
 
 .sobreAFisioContainer{
@@ -238,16 +235,16 @@
     display: flex;
     width: 100%;
     max-width: 350px;  
-    height: 450px;    /* Altura proporcional para retrato */
+    height: 450px;     
     position: relative;
     overflow: hidden;
-    margin: 0 auto;   /* Centraliza no mobile */
-    border-radius: 30px; /* Opcional: deixa a foto com bordas suaves como os cards */
+    margin: 0 auto;   
+    border-radius: 30px;  
 }
 
 .aboutImg {
     object-fit: cover; 
-    object-position: top; /* Foca no rosto se a foto for de corpo inteiro */
+    object-position: top; 
 }
 
 .textContainer{
@@ -260,23 +257,18 @@
     font-size: .98em;
 }
 
-
-
-
-/* === ESTILO DO MODAL === */
-
 .modalOverlay {
-    position: fixed; /* Fixa na frente de tudo */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4); /* Escurece o fundo */
-    backdrop-filter: blur(6px); /* Efeito borrão premium */
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10000; /* Garante que fique acima do Header */
+    z-index: 10000;  
     padding: 20px;
 }
 
@@ -336,12 +328,6 @@
     background: var(--primary-color);
     color: white;
 }
-
-
-
-
-
-
 
 @media (min-width: 768px) {
     .heroImageWrapper {
