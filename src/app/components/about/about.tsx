@@ -59,7 +59,7 @@ export default function About() {
         >
           <Image
             className={styles.imgStyle}
-            src="/IMG_5625.JPG"
+            src="/ambiente-externo-clinica.JPG"
             alt="Ambiente acolhedor da clínica Terapias do Corpo"
             width={500}
             height={500}
