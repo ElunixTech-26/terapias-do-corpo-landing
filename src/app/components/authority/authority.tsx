@@ -7,18 +7,18 @@ import { motion, Variants } from "framer-motion";
 const cards = [
     {
         icon: BsAward, 
-        title: "Método Profissional",
-        description: "Contamos com atendimento especializado em fisioterapia pélvica, baseado em evidências científicas e atualização constante." 
+        title: "Baseado em Evidências",
+        description: "Cada atendimento é guiado por protocolos científicos atualizados — porque você merece um cuidado que realmente funciona." 
     },
     {
         icon: BsPersonVcard,
         title: "100% Personalizado",
-        description: "Após uma avaliação completa, elaboramos um protocolo individualizado, respeitando suas necessidades, objetivos e ritmo de evolução."
+        description: "Começamos com uma avaliação completa para entender você — e criamos um protocolo pensado no seu corpo, no seu ritmo e nos seus objetivos."
     },
     {
         icon: BsHeart,
-        title: "Atendimento Humanizado",
-        description: "Nosso espaço é inclusivo e possui foco no atendimento de pessoas cis e trans, garantindo conforto, privacidade e respeito em cada consulta."
+        title: "Espaço Seguro para Todo Corpo",
+        description: "Aqui, pessoas cis e trans são recebidas com o mesmo respeito, cuidado e atenção. Um espaço pensado para que você se sinta segura desde o momento em que entra."
     },
 ];
 
@@ -69,7 +69,7 @@ export default function Authority() {
                     viewport={{ once: true, amount: 0.5 }}
                     variants={titleVariants}
                 >
-                    O diferencial que faz a diferença!
+                    Por que pacientes escolhem a Terapias do Corpo
                 </motion.h2>
 
                 <motion.div 

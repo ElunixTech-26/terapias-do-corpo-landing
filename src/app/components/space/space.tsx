@@ -56,10 +56,10 @@ export default function Space() {
           variants={headerVariants}
         >
           <motion.h2 variants={headerVariants} className={styles.title}>
-            Nosso Espaço
+            Conheça nosso espaço
           </motion.h2>
           <motion.p variants={headerVariants} className={styles.subtitle}>
-            Um ambiente seguro, acolhedor e pensado para o seu maior conforto.
+            Cada detalhe do nosso espaço foi pensado para que você se sinta bem antes mesmo do atendimento começar.
           </motion.p>
         </motion.div>
 

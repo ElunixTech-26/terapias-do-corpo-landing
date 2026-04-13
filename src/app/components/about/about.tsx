@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "../about/about.module.css";
 import { motion, Variants} from "framer-motion";
+import Link from "next/link";
 
 export default function About() {
   const textVariants: Variants = {
@@ -22,31 +23,25 @@ export default function About() {
           transition={{ staggerChildren: 0.2 }}
         >
           <motion.h2 variants={textVariants} className={styles.aboutTitle}>
-            Quem Somos
+            Nascemos para cuidar de você com respeito
           </motion.h2>
 
           <motion.p variants={textVariants} className={styles.aboutDescription}>
-            Fundada em 2021, nossa clínica nasceu com o propósito de oferecer um
-            cuidado mais atento e humano à saúde e ao bem-estar. Atuamos com
-            foco em fisioterapia pélvica e massoterapia, unindo conhecimento
-            técnico, escuta ativa e um ambiente acolhedor para que cada paciente
-            se sinta confortável e seguro durante todo o atendimento.
+           Mais de 15 anos em Porto Alegre, a Terapias do Corpo nasceu de uma convicção simples: toda pessoa merece cuidado de saúde com escuta, respeito e acolhimento real. Somos especializados em fisioterapia pélvica, massoterapia e estética dermatofuncional — e atendemos a todos os corpos, com atenção especial para pessoas trans que buscam um espaço verdadeiramente seguro.
           </motion.p>
           
           <motion.p variants={textVariants} className={styles.aboutDescription}>
-            Acreditamos que cuidar da saúde vai além do tratamento físico. Por
-            isso, oferecemos atendimentos individualizados, respeitando as
-            necessidades, limites e objetivos de cada pessoa, sempre com
-            atenção, profissionalismo e compromisso com a qualidade de vida.
+            Acreditamos que cuidar vai além do físico. Por isso, cada atendimento começa pela escuta — entendendo quem você é, o que você sente e onde quer chegar. Aqui, você não é um protocolo. Você é uma pessoa.
           </motion.p>
 
           <motion.div variants={textVariants} className="flex flex-col md:flex-row items-center gap-4">
-            <button className={`secondaryBtn ${styles.secondaryBtn}`}>
-              Fisioterapia Pélvica
-            </button>
-            <button className={`primaryBtn ${styles.primaryBtn}`}>
-              Outros serviços
-            </button>
+            <Link href={"/tratamentos/fisioterapia-pelvica"} className={`secondaryBtn ${styles.secondaryBtn}`} >
+              Conheça a Fisioterapia Pélvica 
+            </Link>
+            
+            <Link href={"/"} className={`primaryBtn ${styles.primaryBtn}`} >
+              Quero ler o blog
+            </Link>
           </motion.div>
         </motion.div>
 

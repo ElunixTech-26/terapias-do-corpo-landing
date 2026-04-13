@@ -52,14 +52,14 @@ export default function Massoterapia() {
                         variants={staggerContainer}
                     >
                         <motion.h2 variants={fadeInUp} className={`${styles.title} mb-4`}>
-                            Massoterapia
+                            Massoterapia em Porto Alegre 
                         </motion.h2>
                         <motion.p variants={fadeInUp} className={styles.text}>
-                            A massoterapia é um conjunto de técnicas de massagem usadas para promover o bem-estar físico e mental. Ela envolve a aplicação de movimentos manuais no corpo — como pressão, deslizamento e amassamento — com o objetivo de aliviar tensões musculares, melhorar a circulação sanguínea e reduzir o estresse.
+                           A massoterapia reúne técnicas manuais terapêuticas aplicadas ao corpo para aliviar tensões, melhorar a circulação e restaurar o equilíbrio físico e mental. Mais do que relaxamento, é um cuidado que o seu corpo sente — e que a sua mente agradece.
                         </motion.p>
                         
                         <motion.p variants={fadeInUp} className={styles.text}>
-                            Além do relaxamento, a massoterapia também pode ajudar em dores crônicas, recuperação muscular e até na ansiedade. Existem vários tipos, como massagem relaxante, terapêutica, esportiva e drenagem linfática, cada uma com finalidades específicas.
+                            Atuamos com diferentes abordagens — massagem relaxante, terapêutica e drenagem linfática — indicadas para dores crônicas, recuperação muscular, ansiedade e bem-estar geral. Na sua avaliação, identificamos qual técnica faz mais sentido para o que você precisa agora.
                         </motion.p>
                     </motion.div>
 
@@ -78,12 +78,12 @@ export default function Massoterapia() {
                         
                         <motion.div className={styles.gridItem} variants={fadeInUp} whileHover={{ scale: 1.05 }}>
                             <Image src="/massoterapia-icone-massagem.svg" alt="icone" width={150} height={150} className={styles.gridImg} />
-                            <p className={styles.gridItemTitle}>Redução do Estresse</p>
+                            <p className={styles.gridItemTitle}>Menos Estresse, Mais Leveza</p>
                         </motion.div>
                         
                         <motion.div className={styles.gridItem} variants={fadeInUp} whileHover={{ scale: 1.05 }}>
                             <Image src="/massoterapia-icone-costas.svg" alt="icone" width={100} height={100} className={styles.gridImg} />
-                            <p className={styles.gridItemTitle}>Alívio de dores e tensão</p>
+                            <p className={styles.gridItemTitle}>Corpo Livre de Tensão</p>
                         </motion.div>
                     </motion.div>
 
@@ -99,7 +99,7 @@ export default function Massoterapia() {
                         whileTap={{ scale: 0.95 }}
                         transition={{ duration: 0.5 }}
                     >
-                        Agendar Horário
+                        Quero agendar minha sessão
                     </motion.a>
                 </div>
             </section>

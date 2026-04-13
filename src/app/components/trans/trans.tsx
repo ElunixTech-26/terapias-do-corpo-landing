@@ -65,15 +65,15 @@ export default function Trans() {
                     variants={containerVariants}
                 >
                     <motion.h2 variants={textItemVariants}>
-                        Atendimento Especializado em Pessoas Transgênero
+                      Um espaço feito para você, do jeito que você merece
                     </motion.h2>
 
                     <motion.p variants={textItemVariants}>
-                        A clínica oferece um atendimento acolhedor e respeitoso para pessoas trans, com foco nas suas necessidades específicas. A fisioterapia pélvica é essencial nesse cuidado, auxiliando na preparação e recuperação de cirurgias de afirmação de gênero, além de contribuir para o controle urinário, função sexual e bem-estar geral.
+                       Sabemos que encontrar um espaço de saúde que realmente respeite quem você é pode ser difícil. Na Terapias do Corpo, você é recebida pelo seu nome, tratada com respeito e cuidada por uma equipe que entende as necessidades do corpo trans. A fisioterapia pélvica atua na preparação e recuperação de cirurgias de afirmação de gênero, no controle urinário, na função sexual e no bem-estar como um todo.
                     </motion.p>
                     
                     <motion.p variants={textItemVariants}>
-                        Com uma abordagem individualizada, o atendimento promove mais conforto, autonomia e qualidade de vida, sempre respeitando a identidade de cada pessoa.
+                        Cada atendimento é pensado para o seu corpo, no seu tempo. Porque autonomia, conforto e qualidade de vida não são privilégios — são o mínimo que você merece.
                     </motion.p>
                     
                     <motion.a 
@@ -85,7 +85,7 @@ export default function Trans() {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                     >
-                        Entender Meu Caso
+                    Quero conversar sobre meu atendimento
                     </motion.a>
                 </motion.div>
 

@@ -49,13 +49,13 @@ export default function Estetica() {
                     variants={staggerContainer}
                 >
                     <motion.h2 variants={fadeInUp} className={styles.title}>
-                        Procedimentos Estéticos
+                        Estética Dermatofuncional em Porto Alegre
                     </motion.h2>
 
                     <motion.div className={styles.textContainer} variants={fadeInUp}>
                         <p>Na clínica Terapias do Corpo, acreditamos que a verdadeira estética é o reflexo de um corpo saudável e bem cuidado. Nossos procedimentos não são apenas tratamentos isolados, mas sim protocolos desenvolvidos com rigor clínico e tecnologia para entregar resultados naturais e duradouros.</p>
 
-                        <p>Unimos a precisão da fisioterapia especializada com o que há de mais moderno em bioengenharia tecidual. Seja para recuperar o contorno corporal, combater a flacidez ou promover o rejuvenescimento facial, nosso foco é oferecer uma experiência segura, confortável e totalmente personalizada para os seus objetivos.</p>
+                        <p>Unimos a base da fisioterapia especializada com tecnologia de ponta para tratar flacidez, contorno corporal e rejuvenescimento facial. O resultado é uma experiência segura, confortável e completamente adaptada ao que você precisa.</p>
                     </motion.div>
 
                     {/* Grid de Cards */}
@@ -67,7 +67,7 @@ export default function Estetica() {
                             <div className="flex flex-col gap-2">
                                 <h3 className={styles.cardTitle}>Laserterapia</h3>
                                 <p className={styles.cardDescription}>
-                                    Estimula a regeneração celular, cicatrização de feridas, inflamações e alivia dores agudas ou crônicas.
+                                    Estimula a regeneração celular e acelera a cicatrização, com ação anti-inflamatória e alívio de dores agudas e crônicas.
                                 </p>
                             </div>
                         </motion.div>
@@ -89,7 +89,7 @@ export default function Estetica() {
                             <div className="flex flex-col gap-2">
                                 <h3 className={styles.cardTitle}>Lipo sem Corte</h3>
                                 <p className={styles.cardDescription}>
-                                    Destruição das células de gordura que, posteriormente, serão eliminadas pelo corpo.
+                                    Elimina células de gordura localizada de forma não invasiva — o próprio corpo faz o resto.
                                 </p>
                             </div>
                         </motion.div>
@@ -107,7 +107,7 @@ export default function Estetica() {
                             rel="noopener noreferrer"
                             className={styles.esteticaBtn}
                         >
-                            Agendar Horário
+                            Quero agendar minha sessão
                         </a>
                     </motion.div>
                 </motion.div>

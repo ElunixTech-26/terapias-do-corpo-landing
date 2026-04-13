@@ -9,9 +9,9 @@ export default function Cta(){
             <div className={styles.ctaContainer}>
 
 
-                <div className="flex flex-col items-center">
-                    <h2 className={styles.sectionTitle}>Entre em contato</h2>
-                    <p className={styles.sectionDescription}>Estamos prontos para ajudar você.</p>
+                <div className="flex flex-col items-center gap-2">
+                    <h2 className={styles.sectionTitle}>Pronto para cuidar de você</h2>
+                    <p className={styles.sectionDescription}>Agende sua avaliação e dê o primeiro passo para o seu bem-estar.</p>
                 </div>
 
 
@@ -25,7 +25,7 @@ export default function Cta(){
                     </div>
 
                     <a
-                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Acabei%20de%20ver%20seu%20site%20e%20fiquei%20interessado(a)%20nos%20seus%20atendimentos.%20Gostaria%20de%20entender%20melhor%20como%20funciona%20e%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%AC%E2%9C%A8"
+                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.ctaButton}>

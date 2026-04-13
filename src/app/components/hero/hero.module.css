@@ -52,7 +52,7 @@
 }
 
 .textArea h1 span {
-    font-size: 1.1em; 
+    font-size: 1.05em; 
     font-weight: 700;
     color: var(--primary-color);
 }
@@ -63,6 +63,11 @@
     line-height: 1.5;
     max-width: 85%;
 }
+
+.textArea a {
+    max-width: 320px;
+}
+
 .iconsContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -149,7 +154,7 @@
     }    
     
     .textArea a {
-        max-width: 244px;
+        max-width: auto;
         padding: .6em;
     }
 }

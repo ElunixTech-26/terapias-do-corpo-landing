@@ -16,13 +16,13 @@ const pelvCards = [
     { 
         icon: BsExclamationCircle, 
         title: 'Dor Pélvica Crônica', 
-        text: 'Alívio para tensões que impactam sua rotina.',
+        text: 'Dor que não passa tem tratamento.',
         details: 'Dores persistentes na região pélvica podem ser causadas por tensões musculares profundas, cicatrizes ou disfunções nervosas. Nosso tratamento utiliza técnicas de terapia manual, liberação miofascial e biofeedback para dessensibilizar a região e relaxar a musculatura sobrecarregada. É um processo focado em devolver o conforto e permitir que você volte a sentar, trabalhar e se exercitar sem limitações.'
     },
     { 
         icon: BsHeart, 
         title: 'Disfunções Sexuais', 
-        text: 'Saúde e bem-estar para uma vida íntima plena.',
+        text: 'Sua vida íntima pode — e deve — ser sem dor.',
         details: 'O prazer e o conforto são pilares da qualidade de vida. Atuamos no tratamento de condições como o vaginismo (dificuldade de penetração) e a dispareunia (dor durante o sexo). Com uma abordagem humana e técnica, ajudamos a relaxar a musculatura pélvica e a aumentar o autoconhecimento corporal, transformando o desconforto em segurança para que você vivencie sua sexualidade de forma saudável e sem dor.'
     },
     { 
@@ -34,13 +34,13 @@ const pelvCards = [
     { 
         icon: BsSun, 
         title: 'Redesignação Sexual', 
-        text: 'Apoio especializado na sua jornada de afirmação.',
+        text: 'Suporte técnico e humano em cada etapa da sua transição.',
         details: 'O acompanhamento fisioterapêutico é essencial no processo de cirurgia de afirmação de gênero. Atuamos na preparação dos tecidos no pré-operatório e na reabilitação pós-cirúrgica, auxiliando no manejo correto de dilatadores, no controle urinário e na recuperação da sensibilidade. É um suporte técnico focado em garantir a funcionalidade, o sucesso do procedimento e o seu bem-estar integral.'
     },
     { 
         icon: BsPersonAdd, 
         title: 'Fortalecimento Preventivo', 
-        text: 'Mantenha sua saúde pélvica em dia.',
+        text: 'Não espere o sintoma aparecer para se cuidar.',
         details: 'Você não precisa esperar o sintoma aparecer para cuidar do seu "core" pélvico. Esse tratamento é ideal para atletas de alto impacto, mulheres que planejam engravidar ou quem busca um envelhecimento saudável. Através de exercícios específicos, mantemos a sustentação dos órgãos internos e a estabilidade postural, prevenindo disfunções futuras e garantindo longevidade funcional.'
     },
 ];
@@ -49,7 +49,7 @@ const quandoProcurar = [
     { img: "/escape-urina-foto.png", title: 'Escape de urina', description: 'Perda de urina ao tossir, rir, fazer esforço ou em outro momento.' },
     { img: "/relacao-sexual-foto.png", title: 'Relação sexual', description: 'Dor, queimação e desconforto durante o sexo, ou falta de lubrificação.' },
     { img: "/gravidez-foto.png", title: 'Pré e pós-parto', description: 'Dominar o períneo (antes ou depois) reduz o risco de complicações.' },
-    { img: "/redesignacao-foto.png", title: 'Redesignação sexual', description: 'Necessidade de preparo ou reabilitação após cirurgias de gênero.' },
+    { img: "/redesignacao-foto.png", title: 'Redesignação sexual', description: 'Preparo pré-operatório ou reabilitação após cirurgias de afirmação de gênero.' },
 ];
 
 export default function FisioterapiaPelvica() {
@@ -78,8 +78,10 @@ export default function FisioterapiaPelvica() {
                 <div className={styles.initSectionText}>
                     <h2 className={styles.title}>O que é Fisioterapia Pélvica?</h2>
                     <div className={styles.textArea}>
-                        <p className={styles.text}>A fisioterapia pélvica é uma área especializada voltada para a avaliação, prevenção e tratamento de disfunções do assoalho pélvico.</p>
-                        <p className={styles.text}>Utiliza exercícios específicos e técnicas manuais para restaurar o funcionamento adequado dessa musculatura e melhorar a qualidade de vida.</p>
+
+                        <p className={styles.text}>A fisioterapia pélvica é uma especialidade que avalia, previne e trata disfunções do assoalho pélvico — o conjunto de músculos que sustenta a bexiga, o útero e o intestino.</p>
+
+                        <p className={styles.text}>Por meio de exercícios específicos e técnicas manuais, o tratamento restaura a função dessa musculatura e devolve qualidade de vida — com resultados que você sente na rotina.</p>
                     </div>
 
                     <motion.div 
@@ -116,7 +118,7 @@ export default function FisioterapiaPelvica() {
 
             {/* SEÇÃO QUANDO PROCURAR (REDUZIDA PARA O EXEMPLO) */}
             <section className={styles.secondarySection}>
-                <h2 className="text-white font-bold text-2xl mb-8">Quando nos procurar?</h2>
+                <h2 className="text-white font-bold text-2xl mb-8">Você se identifica com alguma dessas situações?</h2>
                 <div className={styles.secondGrid}>
                     {quandoProcurar.map((card, index) => (
                         <div className={styles.secondCard} key={index}>
@@ -148,7 +150,7 @@ export default function FisioterapiaPelvica() {
                             <p>{selectedCard.details}</p>
 
                             <a href="https://wa.me/5551998797339" target="_blank" className="primaryBtn">
-                                Agendar consulta para este caso
+                                Quero tratar esse caso
                             </a>
                         </motion.div>
                     </div>
