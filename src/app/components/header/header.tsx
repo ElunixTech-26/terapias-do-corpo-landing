@@ -29,12 +29,12 @@ export default function Header(){
 
                 <nav className='hidden md:block'>
                     <ul className='flex items-center gap-8 font-medium'>
-                        <li><Link className={styles.navLink} href={"/"}>Home</Link></li>
+                        <li><Link className={styles.navLink} href={"/#"}>Home</Link></li>
 
                         <li><Link className={styles.navLink} 
                         href={'/tratamentos/fisioterapia-pelvica/'}>Fisioterapia Pélvica</Link></li>
 
-                        <li><Link className={styles.navLink} href={"/"}>Estética</Link></li>
+                        <li><Link className={styles.navLink} href={"/tratamentos/estetica"}>Estética</Link></li>
                         <li><Link className={styles.navLink} href={"/tratamentos/massoterapia"}>Massoterapia</Link></li>
                         <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
                         <li><a className={`secondaryBtn`} 
@@ -58,10 +58,10 @@ export default function Header(){
                 {/* Mobile Menu */}
                 <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.mobileMenuActive : ""}`}>
                     <ul className="font-inter">
-                        <li><Link href="/" onClick={closeMenu}>Home</Link></li>
+                        <li><Link href="/#" onClick={closeMenu}>Home</Link></li>
                         <li><Link href={'/tratamentos/fisioterapia-pelvica/'}
                          onClick={closeMenu}>Fisioterapia Pélvica</Link></li>
-                        <li><Link href="/" onClick={closeMenu}>Estética</Link></li>
+                        <li><Link href="/tratamentos/estetica" onClick={closeMenu}>Estética</Link></li>
                         <li><Link href="/tratamentos/massoterapia" onClick={closeMenu}>Massoterapia</Link></li>
                         <li><Link href="/" onClick={closeMenu}>Blog</Link></li>
 

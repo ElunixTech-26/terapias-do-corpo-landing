@@ -38,10 +38,13 @@ export default function Footer(){
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/"}>Tratamentos</Link>
+              <Link href={"/tratamentos/fisioterapia-pelvica"}>Fisioterapia Pélvica</Link>
             </li>
             <li>
-              <Link href={"/"}>Outros Serviços</Link>
+              <Link href={"/tratamentos/massoterapia"}>Massoterapia</Link>
+            </li>
+            <li>
+              <Link href={"/tratamentos/estetica"}>Estética</Link>
             </li>
             <li>
               <Link href={"/#contact"}>Contato</Link>

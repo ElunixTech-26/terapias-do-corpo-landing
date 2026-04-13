@@ -168,9 +168,16 @@ export default function FisioterapiaPelvica() {
                     >
                         <motion.h3 variants={fadeInUp} className={styles.aboutTitle}>Daniele Elgert</motion.h3>
                         <motion.div variants={fadeInUp} className={styles.textContainer}>
-                            <p className={styles.aboutText}>Especialista em Fisioterapia Pélvica com foco em saúde integral e humanizada.</p>
-                            <p className={styles.aboutText}>Atua com evidências científicas para proporcionar autonomia e bem-estar aos seus pacientes.</p>
-                            <p className={styles.aboutText}>CREFITO: XXXX-X | Formação em Fisioterapia Pélvica Avançada.</p>
+                            <p className={styles.aboutText}>Sou fisioterapeuta e atuo na área de Fisioterapia pélvica, acompanhando pessoas com diferentes disfunções do assoalho pélvico por meio de um cuidado individualizado, sensível e comprometido com a funcionalidade e a qualidade de vida.</p>
+
+                            <p className={styles.aboutText}>
+                            Minha trajetória também se constrói no campo do Ensino na Saúde, por meio do mestrado, da participação em pesquisas e oficinas, e do interesse na formação de profissionais mais preparados para cuidar da população LGBTQIA+ com respeito, responsabilidade e escuta qualificada.</p>
+
+                            <p className={styles.aboutText}>
+                            Tenho atenção especial ao cuidado pré e pós-operatório em cirurgias de afirmação de gênero, articulando prática clínica, ensino e produção de conhecimento em saúde
+                            </p>
+
+                            <p className={styles.aboutText}>CREFITO: 381746-F</p>
                         </motion.div>
                     </motion.div>
 

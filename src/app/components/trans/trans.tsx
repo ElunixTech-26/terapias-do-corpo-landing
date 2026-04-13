@@ -48,7 +48,7 @@ export default function Trans() {
                     variants={fadeInUp}
                 >
                     <Image 
-                        src="/trans-img.png"
+                        src="/foto-conceitual-trans.png"
                         alt="Atendimento humanizado para pessoas transgênero"
                         width={496}
                         height={560}
@@ -76,14 +76,17 @@ export default function Trans() {
                         Com uma abordagem individualizada, o atendimento promove mais conforto, autonomia e qualidade de vida, sempre respeitando a identidade de cada pessoa.
                     </motion.p>
                     
-                    <motion.button 
+                    <motion.a 
+                        href="https://wa.me/5551998797339/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         variants={textItemVariants}
                         className="secondaryBtn"
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                     >
                         Entender Meu Caso
-                    </motion.button>
+                    </motion.a>
                 </motion.div>
 
             </div>
