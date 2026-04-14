@@ -36,7 +36,7 @@ const pelvCards = [
     },
     { 
         icon: BsSun, 
-        title: 'Redesignação Sexual', 
+        title: 'Afirmação de Gênero', 
         text: 'Pré e pós-operatório em cirurgias de afirmação de gênero',
         details: 'O acompanhamento fisioterapêutico pode ser um recurso importante no preparo e na recuperação de cirurgias de afirmação de gênero, incluindo procedimentos como vaginoplastia e mamoplastia masculinizadora. No período pré-operatório, o cuidado pode contribuir para o preparo dos tecidos, para a orientação do corpo e para uma recuperação mais consciente e assistida.',
         secondDetail: 'No pós-operatório, o atendimento é conduzido de forma individualizada, com foco na funcionalidade, no manejo de cicatrizes, na mobilidade tecidual, na recuperação da sensibilidade e em aspectos que favorecem conforto, adaptação e qualidade de vida ao longo do processo de reabilitação'
