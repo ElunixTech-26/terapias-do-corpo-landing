@@ -61,16 +61,16 @@
 
 .mainImage {
     grid-column: span 2; 
-    grid-row: span 2; 
+    grid-row: span 2;     
 }
 
 .detailImage1 {
-    grid-column: span 1;
+    grid-column: span 2;
     grid-row: span 1;
 }
 
 .detailImage2 {
-    grid-column: span 1;
+    grid-column: span 2;
     grid-row: span 1;
 }
 

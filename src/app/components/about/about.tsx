@@ -53,9 +53,9 @@ export default function About() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }} 
         >
           <Image
-            className={styles.imgStyle}
-            src="/ambiente-externo-clinica.JPG"
-            alt="Ambiente acolhedor da clínica Terapias do Corpo"
+            className={`${styles.imgStyle} hidden md:block`}
+            src="/painel-terapias-do-corpo.png"
+            alt="Painel com serviços da Clínica Terapias do Corpo"
             width={500}
             height={500}
             priority 
