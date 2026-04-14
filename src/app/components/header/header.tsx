@@ -28,7 +28,7 @@ export default function Header(){
                 </Link>
 
                 <nav className='hidden md:block'>
-                    <ul className='flex items-center gap-8 font-medium'>
+                    <ul className='flex items-center gap-12 font-medium'>
                         <li><Link className={styles.navLink} href={"/#"}>Home</Link></li>
 
                         <li><Link className={styles.navLink} 

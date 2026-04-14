@@ -14,12 +14,13 @@
 
 .headerContainer {
     width: 100%;
-    max-width: 1200px; 
-    margin: 0 auto;
+    /* max-width: 1200px;  */
+    margin: 0;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1rem 3.5rem;
 }
 
 .navLink {
@@ -179,6 +180,7 @@
     .menuToggle {
         display: none;
     }
+    
 }
 
 @media (max-width: 768px) {
