@@ -4,44 +4,49 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./fisioPelvica.module.css";
 import { motion, Variants, AnimatePresence } from "framer-motion";
-import { BsClock, BsDroplet, BsExclamationCircle, BsHeart, BsPersonAdd, BsPlusLg, BsSun, BsWhatsapp, BsX } from "react-icons/bs";
+import { BsClock, BsDroplet, BsExclamationCircle, BsHeart, BsPersonAdd, BsSun, BsWhatsapp, BsX } from "react-icons/bs";
 
 const pelvCards = [
     { 
         icon: BsDroplet, 
         title: 'Incontinência Urinária', 
         text: 'Recupere a sua liberdade e segurança diária.',
-        details: 'A perda involuntária de urina, seja ao tossir, rir ou praticar exercícios, não deve ser aceita como algo "normal" da idade ou do pós-parto. Através de um protocolo de reabilitação muscular, trabalhamos a coordenação e o fortalecimento do assoalho pélvico. O objetivo é devolver a você a confiança de viver sua rotina sem o medo constante de escapes, eliminando a dependência de protetores e absorventes.'
+        details: 'A perda involuntária de urina não deve ser aceita como algo "normal" da idade ou do pós-parto. Através de um protocolo de reabilitação muscular, trabalhamos a coordenação e o fortalecimento do assoalho pélvico. O objetivo é devolver a você a confiança de viver sua rotina sem o medo constante de escapes, eliminando a dependência de protetores e absorventes, entre outros desconfortos.'
     },
     { 
         icon: BsExclamationCircle, 
         title: 'Dor Pélvica Crônica', 
         text: 'Dor que não passa tem tratamento.',
-        details: 'Dores persistentes na região pélvica podem ser causadas por tensões musculares profundas, cicatrizes ou disfunções nervosas. Nosso tratamento utiliza técnicas de terapia manual, liberação miofascial e biofeedback para dessensibilizar a região e relaxar a musculatura sobrecarregada. É um processo focado em devolver o conforto e permitir que você volte a sentar, trabalhar e se exercitar sem limitações.'
+        details: 'A dor pélvica crônica pode ter diferentes origens, incluindo tensões musculares profundas, cicatrizes, alterações nervosas e condições como a endometriose. A fisioterapia pélvica oferece um cuidado individualizado, voltado ao alívio da dor, ao relaxamento da musculatura e à recuperação da funcionalidade.',
+        secondDetail: 'Com isso, busca-se mais conforto, liberdade de movimento e melhor qualidade de vida na rotina.'
     },
     { 
         icon: BsHeart, 
         title: 'Disfunções Sexuais', 
         text: 'Sua vida íntima pode — e deve — ser sem dor.',
-        details: 'O prazer e o conforto são pilares da qualidade de vida. Atuamos no tratamento de condições como o vaginismo (dificuldade de penetração) e a dispareunia (dor durante o sexo). Com uma abordagem humana e técnica, ajudamos a relaxar a musculatura pélvica e a aumentar o autoconhecimento corporal, transformando o desconforto em segurança para que você vivencie sua sexualidade de forma saudável e sem dor.'
+        details: 'O conforto e a saúde sexual são aspectos importantes do bem-estar. A fisioterapia pélvica atua no cuidado de quadros como vaginismo, dor na penetração e outras disfunções associadas ao assoalho pélvico.',
+        secondDetail: 'O atendimento é conduzido de forma cuidadosa e individualizada, com foco na melhora da função, no relaxamento muscular e na promoção de mais conforto, segurança e qualidade de vida.'
     },
     { 
         icon: BsClock, 
         title: 'Pré e Pós-parto', 
         text: 'Preparação e recuperação para a maternidade.',
-        details: 'Durante a gestação, preparamos o seu assoalho pélvico para suportar o peso extra e ganhar a flexibilidade necessária para o parto. No pós-parto, o foco é a reabilitação da parede abdominal e da musculatura pélvica, prevenindo a diástase e garantindo que seu corpo se recupere com força e funcionalidade, permitindo que você se dedique ao seu bebê com saúde e disposição.'
+        details: 'A fisioterapia pélvica pode acompanhar diferentes fases da gestação e do pós-parto, oferecendo suporte ao corpo diante das mudanças que ocorrem nesse período. Durante a gravidez, o cuidado busca favorecer adaptação, conforto e preparo da musculatura pélvica para o parto.',
+        secondDetail: 'No pós-parto, o atendimento é voltado à recuperação funcional da parede abdominal e do assoalho pélvico, contribuindo para o restabelecimento do corpo com mais segurança, força e bem-estar no dia a dia.'
     },
     { 
         icon: BsSun, 
         title: 'Redesignação Sexual', 
-        text: 'Suporte técnico e humano em cada etapa da sua transição.',
-        details: 'O acompanhamento fisioterapêutico é essencial no processo de cirurgia de afirmação de gênero. Atuamos na preparação dos tecidos no pré-operatório e na reabilitação pós-cirúrgica, auxiliando no manejo correto de dilatadores, no controle urinário e na recuperação da sensibilidade. É um suporte técnico focado em garantir a funcionalidade, o sucesso do procedimento e o seu bem-estar integral.'
+        text: 'Pré e pós-operatório em cirurgias de afirmação de gênero',
+        details: 'O acompanhamento fisioterapêutico pode ser um recurso importante no preparo e na recuperação de cirurgias de afirmação de gênero, incluindo procedimentos como vaginoplastia e mamoplastia masculinizadora. No período pré-operatório, o cuidado pode contribuir para o preparo dos tecidos, para a orientação do corpo e para uma recuperação mais consciente e assistida.',
+        secondDetail: 'No pós-operatório, o atendimento é conduzido de forma individualizada, com foco na funcionalidade, no manejo de cicatrizes, na mobilidade tecidual, na recuperação da sensibilidade e em aspectos que favorecem conforto, adaptação e qualidade de vida ao longo do processo de reabilitação'
     },
     { 
         icon: BsPersonAdd, 
         title: 'Fortalecimento Preventivo', 
         text: 'Não espere o sintoma aparecer para se cuidar.',
-        details: 'Você não precisa esperar o sintoma aparecer para cuidar do seu "core" pélvico. Esse tratamento é ideal para atletas de alto impacto, mulheres que planejam engravidar ou quem busca um envelhecimento saudável. Através de exercícios específicos, mantemos a sustentação dos órgãos internos e a estabilidade postural, prevenindo disfunções futuras e garantindo longevidade funcional.'
+        details: 'O cuidado com o assoalho pélvico também pode ter um papel preventivo, contribuindo para a manutenção da função, da estabilidade e da sustentação ao longo do tempo. Esse acompanhamento pode ser indicado em diferentes contextos, como na prática de atividades de alto impacto, no planejamento gestacional e na promoção de um envelhecimento mais funcional e saudável.',
+        secondDetail: 'Por meio de exercícios específicos e condutas individualizadas, o tratamento busca favorecer equilíbrio muscular, suporte aos órgãos pélvicos e melhor integração entre postura, movimento e funcionalidade no dia a dia.'
     },
 ];
 
@@ -49,7 +54,7 @@ const quandoProcurar = [
     { img: "/escape-urina-foto.png", title: 'Escape de urina', description: 'Perda de urina ao tossir, rir, fazer esforço ou em outro momento.' },
     { img: "/relacao-sexual-foto.png", title: 'Relação sexual', description: 'Dor, queimação e desconforto durante o sexo, ou falta de lubrificação.' },
     { img: "/gravidez-foto.png", title: 'Pré e pós-parto', description: 'Dominar o períneo (antes ou depois) reduz o risco de complicações.' },
-    { img: "/redesignacao-foto.png", title: 'Redesignação sexual', description: 'Preparo pré-operatório ou reabilitação após cirurgias de afirmação de gênero.' },
+    { img: "/redesignacao-foto.png", title: 'Cirurgias de Afirmação de gênero', description: 'Preparo pré-operatório ou reabilitação após cirurgias de afirmação de gênero.' },
 ];
 
 export default function FisioterapiaPelvica() {
@@ -79,9 +84,9 @@ export default function FisioterapiaPelvica() {
                     <h2 className={styles.title}>O que é Fisioterapia Pélvica?</h2>
                     <div className={styles.textArea}>
 
-                        <p className={styles.text}>A fisioterapia pélvica é uma especialidade que avalia, previne e trata disfunções do assoalho pélvico — o conjunto de músculos que sustenta a bexiga, o útero e o intestino.</p>
+                        <p className={styles.text}>A fisioterapia pélvica é uma especialidade voltada à avaliação, prevenção e tratamento das disfunções do assoalho pélvico — conjunto de músculos e tecidos responsáveis pela sustentação de órgãos como bexiga, útero e intestino.</p>
 
-                        <p className={styles.text}>Por meio de exercícios específicos e técnicas manuais, o tratamento restaura a função dessa musculatura e devolve qualidade de vida — com resultados que você sente na rotina.</p>
+                        <p className={styles.text}>Por meio de exercícios específicos, técnicas manuais e recursos terapêuticos individualizados, o tratamento busca melhorar a função dessa musculatura, promovendo mais conforto, funcionalidade e qualidade de vida no dia a dia.</p>
                     </div>
 
                     <motion.div 
@@ -154,7 +159,10 @@ export default function FisioterapiaPelvica() {
                             
                             <selectedCard.icon className={styles.modalIcon} />
                             <h2>{selectedCard.title}</h2>
-                            <p>{selectedCard.details}</p>
+                            <div className={styles.modalTextDiv}>
+                                <p>{selectedCard.details}</p>
+                                <p>{selectedCard?.secondDetail}</p>
+                            </div>
 
                             <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Tenho%20interesse%20em%20fisioterapia%20p%C3%A9lvica.%20Pode%20me%20contar%20como%20funciona%20a%20avalia%C3%A7%C3%A3o%3F"
                             target="_blank"

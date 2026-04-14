@@ -13,7 +13,7 @@ export default function Hero(){
                         <span>Fisioterapia Pélvica</span> em Porto Alegre para quem merece <span>cuidado</span> de verdade
                         {/* <span>Cuidado</span> especializado para o seu <span>bem-estar</span> físico e íntimo */}
                     </h1>
-                    <p>Atendimento especializado em saúde pélvica, massoterapia e estética, com escuta ativa, respeito e um cuidado que você sente desde o primeiro contato.</p>
+                    <p>Atendimento especializado em saúde pélvica, massoterapia e estética, com escuta sensível, respeito e cuidado desde o primeiro contato.</p>
                     <a href="Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
                     target="_blank"
                     rel="noopener noreferrer"

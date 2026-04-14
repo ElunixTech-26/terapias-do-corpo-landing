@@ -89,7 +89,7 @@ export default function Estetica() {
                             <div className="flex flex-col gap-2">
                                 <h3 className={styles.cardTitle}>Lipo sem Corte</h3>
                                 <p className={styles.cardDescription}>
-                                    Elimina células de gordura localizada de forma não invasiva — o próprio corpo faz o resto.
+                                    Procedimento não invasivo que auxilia na redução da gordura localizada, favorecendo a remodelação corporal por meio de estímulos que respeitam o funcionamento natural do organismo.                       
                                 </p>
                             </div>
                         </motion.div>

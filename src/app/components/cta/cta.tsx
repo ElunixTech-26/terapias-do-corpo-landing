@@ -8,12 +8,10 @@ export default function Cta(){
         <section className={styles.cta} id="contact">
             <div className={styles.ctaContainer}>
 
-
                 <div className="flex flex-col items-center gap-2">
-                    <h2 className={styles.sectionTitle}>Pronto para cuidar de você</h2>
-                    <p className={styles.sectionDescription}>Agende sua avaliação e dê o primeiro passo para o seu bem-estar.</p>
+                    <h2 className={styles.sectionTitle}>Comece seu cuidado com atenção e segurança</h2>
+                    <p className={styles.sectionDescription}>Agende sua avaliação e inicie um acompanhamento pensado para as suas necessidades.</p>
                 </div>
-
 
                 <div className={styles.ctaDivContainer}>
 

@@ -8,17 +8,17 @@ const cards = [
     {
         icon: BsAward, 
         title: "Baseado em Evidências",
-        description: "Cada atendimento é guiado por protocolos científicos atualizados — porque você merece um cuidado que realmente funciona." 
+        description: "Cada atendimento é guiado por conhecimento científico atualizado, para que o cuidado oferecido seja seguro, responsável e efetivo." 
     },
     {
         icon: BsPersonVcard,
-        title: "100% Personalizado",
-        description: "Começamos com uma avaliação completa para entender você — e criamos um protocolo pensado no seu corpo, no seu ritmo e nos seus objetivos."
+        title: "Atendimento Personalizado",
+        description: "Cada atendimento começa com uma avaliação cuidadosa, para que o protocolo seja construído de forma personalizada, respeitando seu corpo, seu ritmo e seus objetivos"
     },
     {
         icon: BsHeart,
-        title: "Espaço Seguro para Todo Corpo",
-        description: "Aqui, pessoas cis e trans são recebidas com o mesmo respeito, cuidado e atenção. Um espaço pensado para que você se sinta segura desde o momento em que entra."
+        title: "Cuidado com respeito à diversidade",
+        description: "Aqui, cada pessoa é recebida com respeito, atenção e cuidado, em um espaço pensado para promover segurança, acolhimento e confiança desde a chegada."
     },
 ];
 

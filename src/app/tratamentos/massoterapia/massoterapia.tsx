@@ -54,11 +54,11 @@ export default function Massoterapia() {
                             Massoterapia em Porto Alegre 
                         </motion.h2>
                         <motion.p variants={fadeInUp} className={styles.text}>
-                           A massoterapia reúne técnicas manuais terapêuticas aplicadas ao corpo para aliviar tensões, melhorar a circulação e restaurar o equilíbrio físico e mental. Mais do que relaxamento, é um cuidado que o seu corpo sente — e que a sua mente agradece.
+                            A massoterapia reúne técnicas manuais voltadas ao cuidado do corpo, promovendo alívio de tensões, melhora da circulação e bem-estar físico e mental.
                         </motion.p>
                         
                         <motion.p variants={fadeInUp} className={styles.text}>
-                            Atuamos com diferentes abordagens — massagem relaxante, terapêutica e drenagem linfática — indicadas para dores crônicas, recuperação muscular, ansiedade e bem-estar geral. Na sua avaliação, identificamos qual técnica faz mais sentido para o que você precisa agora.
+                            O atendimento pode incluir massagem relaxante, terapêutica, drenagem linfática e massagem modeladora, sempre definidas de forma individualizada, conforme as necessidades e os objetivos de cada pessoa.
                         </motion.p>
                     </motion.div>
 

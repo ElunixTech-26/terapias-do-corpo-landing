@@ -65,15 +65,19 @@ export default function Trans() {
                     variants={containerVariants}
                 >
                     <motion.h2 variants={textItemVariants}>
-                      Um espaço feito para você, do jeito que você merece
+                      Cuidado especializado, com respeito e sensibilidade
                     </motion.h2>
 
                     <motion.p variants={textItemVariants}>
-                       Sabemos que encontrar um espaço de saúde que realmente respeite quem você é pode ser difícil. Na Terapias do Corpo, você é recebida pelo seu nome, tratada com respeito e cuidada por uma equipe que entende as necessidades do corpo trans. A fisioterapia pélvica atua na preparação e recuperação de cirurgias de afirmação de gênero, no controle urinário, na função sexual e no bem-estar como um todo.
+                       Encontrar um espaço de saúde onde seja possível se sentir acolhida(o), respeitada(o) e atendida(o) com seriedade nem sempre é algo simples. Na Terapias do Corpo, o cuidado é oferecido com escuta qualificada e atenção às singularidades de cada trajetória.
                     </motion.p>
                     
                     <motion.p variants={textItemVariants}>
-                        Cada atendimento é pensado para o seu corpo, no seu tempo. Porque autonomia, conforto e qualidade de vida não são privilégios — são o mínimo que você merece.
+                        A fisioterapia pode acompanhar diferentes demandas relacionadas à saúde de pessoas trans, incluindo o preparo e a recuperação de cirurgias de afirmação de gênero, bem como as funções do assoalho pélvico que impactam no conforto, funcionalidade e qualidade de vida.
+                    </motion.p>
+
+                    <motion.p variants={textItemVariants}>
+                        Cada atendimento é conduzido de forma individualizada, considerando o corpo, o tempo e as necessidades de cada pessoa, em um espaço comprometido com respeito, segurança e cuidado ético.
                     </motion.p>
                     
                     <motion.a 

@@ -23,15 +23,15 @@ export default function About() {
           transition={{ staggerChildren: 0.2 }}
         >
           <motion.h2 variants={textVariants} className={styles.aboutTitle}>
-            Nascemos para cuidar de você com respeito
+            Cuidado especializado com escuta e respeito
           </motion.h2>
 
           <motion.p variants={textVariants} className={styles.aboutDescription}>
-           Mais de 15 anos em Porto Alegre, a Terapias do Corpo nasceu de uma convicção simples: toda pessoa merece cuidado de saúde com escuta, respeito e acolhimento real. Somos especializados em fisioterapia pélvica, massoterapia e estética dermatofuncional — e atendemos a todos os corpos, com atenção especial para pessoas trans que buscam um espaço verdadeiramente seguro.
+           Há mais de 15 anos em Porto Alegre, a Terapias do Corpo se sustenta em uma convicção simples: toda pessoa merece um cuidado conduzido com escuta, respeito e acolhimento verdadeiro. Com atuação em fisioterapia pélvica, massoterapia e estética dermatofuncional, oferecemos um atendimento atento às necessidades e singularidades de cada pessoa.
           </motion.p>
           
           <motion.p variants={textVariants} className={styles.aboutDescription}>
-            Acreditamos que cuidar vai além do físico. Por isso, cada atendimento começa pela escuta — entendendo quem você é, o que você sente e onde quer chegar. Aqui, você não é um protocolo. Você é uma pessoa.
+            Acreditamos que cuidar vai além do físico. Por isso, cada atendimento começa pela escuta: compreender o que você sente, quais são as suas necessidades e o que faz sentido para o seu momento também faz parte do cuidado. Aqui, cada atendimento é pensado de forma individualizada, com atenção, presença e responsabilidade.
           </motion.p>
 
           <motion.div variants={textVariants} className="flex flex-col md:flex-row items-center gap-4">
