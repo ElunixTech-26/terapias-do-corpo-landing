@@ -84,7 +84,7 @@ export default function Space() {
             className={`${styles.bentoItem} ${styles.detailImage2}`}
             variants={itemVariants}
           >
-            <Image src="/IMG_5568.JPG" alt="Sala de atendimento mobile" fill className={styles.img} />
+            <Image src="/ambiente-clinica-3.JPG" alt="Sala de atendimento mobile" fill className={styles.img} />
           </motion.div>
           
           {/* Detalhe 1 */}

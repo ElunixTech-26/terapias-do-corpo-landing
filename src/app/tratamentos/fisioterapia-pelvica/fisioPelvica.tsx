@@ -71,8 +71,8 @@ export default function FisioterapiaPelvica() {
 
             <section className={styles.firstSection}>
                 <div className={styles.heroImageWrapper}>
-                    <Image src="/fisio-pelvica-foto-mobile.png" alt="Mulher alongando" fill priority className={`${styles.image} md:hidden block`} />
-                    <Image src="/fisio-pelvica-foto.svg" alt="Mulher alongando" fill priority className={`${styles.image} hidden md:block`} />
+                    <Image src="/foto-capa-fisioterapia-pelvica-mobile.png" alt="Imagem conceitual da região Pélvica" fill priority className={`${styles.image} md:hidden block`} />
+                    <Image src="/foto-capa-fisioterapia-pelvica-desktop.png" alt="Imagem conceitual da região Pélvica" fill priority className={`${styles.image} hidden md:block`} />
                 </div>
 
                 <div className={styles.initSectionText}>

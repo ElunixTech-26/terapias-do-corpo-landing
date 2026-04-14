@@ -48,7 +48,7 @@ export default function Trans() {
                     variants={fadeInUp}
                 >
                     <Image 
-                        src="/foto-conceitual-trans.png"
+                        src="/imagem-conceitual-trans.png"
                         alt="Atendimento humanizado para pessoas transgênero"
                         width={496}
                         height={560}
