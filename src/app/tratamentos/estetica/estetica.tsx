@@ -93,6 +93,7 @@ export default function Estetica() {
                                 </p>
                             </div>
                         </motion.div>
+                        
 
                     </motion.div>
 
@@ -102,7 +103,7 @@ export default function Estetica() {
                         whileTap={{ scale: 0.95 }}
                         className="flex justify-center"
                     >
-                        <a href="https://wa.me/5551998797339/"
+                        <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20os%20procedimentos%20est%C3%A9ticos%20de%20voc%C3%AAs%20e%20quero%20saber%20qual%20%C3%A9%20o%20ideal%20para%20mim."
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.esteticaBtn}

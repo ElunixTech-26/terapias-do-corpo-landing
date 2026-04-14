@@ -87,7 +87,7 @@ export default function Massoterapia() {
                     </motion.div>
 
                     <motion.a 
-                        href="https://wa.me/5551998797339/"
+                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Quero%20agendar%20uma%20sess%C3%A3o%20de%20massoterapia.%20Tem%20hor%C3%A1rio%20dispon%C3%ADvel%3F"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`${styles.massoBtn}`}

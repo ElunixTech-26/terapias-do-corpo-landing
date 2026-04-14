@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./fisioPelvica.module.css";
 import { motion, Variants, AnimatePresence } from "framer-motion";
-import { BsClock, BsDroplet, BsExclamationCircle, BsHeart, BsPersonAdd, BsPlusLg, BsSun, BsX } from "react-icons/bs";
+import { BsClock, BsDroplet, BsExclamationCircle, BsHeart, BsPersonAdd, BsPlusLg, BsSun, BsWhatsapp, BsX } from "react-icons/bs";
 
 const pelvCards = [
     { 
@@ -128,6 +128,13 @@ export default function FisioterapiaPelvica() {
                         </div>
                     ))}
                 </div>
+
+                <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Tenho%20interesse%20em%20fisioterapia%20p%C3%A9lvica.%20Pode%20me%20contar%20como%20funciona%20a%20avalia%C3%A7%C3%A3o%3F"
+                target="_blank"
+                className={styles.miniCta}>
+                    <BsWhatsapp className={styles.wppIcon}/>
+                    <span>Agendar uma Avaliação</span>
+                </a>
             </section>
 
             {/* MODAL COM ANIMATE PRESENCE */}
@@ -149,7 +156,9 @@ export default function FisioterapiaPelvica() {
                             <h2>{selectedCard.title}</h2>
                             <p>{selectedCard.details}</p>
 
-                            <a href="https://wa.me/5551998797339" target="_blank" className="primaryBtn">
+                            <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Tenho%20interesse%20em%20fisioterapia%20p%C3%A9lvica.%20Pode%20me%20contar%20como%20funciona%20a%20avalia%C3%A7%C3%A3o%3F"
+                            target="_blank"
+                            className="primaryBtn">
                                 Quero tratar esse caso
                             </a>
                         </motion.div>

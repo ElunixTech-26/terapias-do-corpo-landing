@@ -77,7 +77,7 @@ export default function Trans() {
                     </motion.p>
                     
                     <motion.a 
-                        href="https://wa.me/5551998797339/"
+                        href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20o%20espa%C3%A7o%20de%20voc%C3%AAs%20e%20me%20senti%20acolhida.%20Gostaria%20de%20conversar%20sobre%20meu%20atendimento."
                         target="_blank"
                         rel="noopener noreferrer"
                         variants={textItemVariants}
