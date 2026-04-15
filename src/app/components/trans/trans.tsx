@@ -65,7 +65,7 @@ export default function Trans() {
                     variants={containerVariants}
                 >
                     <motion.h2 variants={textItemVariants}>
-                      Cuidado especializado, com respeito e sensibilidade
+                      Fisioterapia para a diversidade sexual e de gênero
                     </motion.h2>
 
                     <motion.p variants={textItemVariants}>
