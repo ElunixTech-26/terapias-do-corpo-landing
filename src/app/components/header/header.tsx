@@ -36,7 +36,7 @@ export default function Header(){
 
                         <li><Link className={styles.navLink} href={"/tratamentos/estetica"}>Estética</Link></li>
                         <li><Link className={styles.navLink} href={"/tratamentos/massoterapia"}>Massoterapia</Link></li>
-                        <li><Link className={styles.navLink} href={"/"}>Blog</Link></li>
+                        <li><Link className={styles.navLink} href={"/blog"}>Blog</Link></li>
                         <li><a className={`secondaryBtn`} 
                         href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
                         target="_blank"
@@ -63,7 +63,7 @@ export default function Header(){
                          onClick={closeMenu}>Fisioterapia Pélvica</Link></li>
                         <li><Link href="/tratamentos/estetica" onClick={closeMenu}>Estética</Link></li>
                         <li><Link href="/tratamentos/massoterapia" onClick={closeMenu}>Massoterapia</Link></li>
-                        <li><Link href="/" onClick={closeMenu}>Blog</Link></li>
+                        <li><Link href="/blog" onClick={closeMenu}>Blog</Link></li>
 
                         <div className={styles.mobileDivContato}>
                             <h2>Fale Conosco</h2>

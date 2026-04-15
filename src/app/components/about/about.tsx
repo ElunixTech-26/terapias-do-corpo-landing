@@ -39,7 +39,7 @@ export default function About() {
               Conheça a Fisioterapia Pélvica 
             </Link>
             
-            <Link href={"/"} className={`primaryBtn ${styles.primaryBtn}`} >
+            <Link href={"/blog"} className={`primaryBtn ${styles.primaryBtn}`} >
               Quero ler o blog
             </Link>
           </motion.div>

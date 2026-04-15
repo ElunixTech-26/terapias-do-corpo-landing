@@ -1,0 +1,170 @@
+.capaHeroImg {
+  background: url('/blog-capa-mobile.png');
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+
+  height: 450px;
+}
+
+.capaHeroImg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1; 
+}
+
+.capaHeroImgTextDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: relative; 
+  z-index: 2; 
+  height: 100%;  
+  gap: .6em;
+}
+
+.capaHeroImgTitle{
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.capaHeroImgText{
+  color: white;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* seção blog vazio */
+
+.emptyBlogState{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Seção dos posts */
+
+.contentSection{
+  background-color: var(--background);
+  padding: 3em 1.5em;
+}
+
+.sectionTitle{
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  text-align: center;
+
+}
+
+.recentPostsGrid, .gridPosts{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.recentCard{
+  display: flex;
+  flex-direction: column;
+
+  max-height: 350px;
+  height: 250px;
+
+  background-color: white;
+ 
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.03);
+}
+
+.recentCardDivImg{
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+
+  transition: all 0.3s ease;
+}
+
+.recentCardDivImg:hover{
+  transform: scale(1.015);
+}
+
+.recentCardTitle{
+  font-weight: 600;
+}
+
+.mainCard{
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.015);
+  overflow: hidden;
+}
+
+.CardDivImg{
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+
+  overflow: hidden;
+
+  transition: all 0.5s ease;
+}
+
+.CardDivImg:hover{
+  transform: scale(1.01);
+}
+
+
+.divMainCard{
+  padding: 1em;
+  border-radius: 12px;
+}
+
+
+.prevRow, .nextRow {
+  padding: .4em 1.2em;
+  border-radius: 24px;
+  color: white;
+  background-color: var(--primary-color);
+
+  transition: all 0.3s ease;
+}
+
+.prevRow:hover, .nextRow:hover {
+  transform: scale(1.02);
+}
+
+@media (min-width: 768px) {
+  .capaHeroImg {
+    background: url('/blog-capa-desktop.png');
+    
+    background-size: cover;
+    background-position: center;
+  }  
+  
+  .contentSection{
+    padding: 3em 4em;
+  }
+  
+  .sectionTitle{
+    text-align: left;
+  }
+  
+  .recentPostsGrid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .gridPosts{    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  
+}
