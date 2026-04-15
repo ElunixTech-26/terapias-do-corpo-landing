@@ -59,7 +59,7 @@ export default function Footer(){
            className={styles.navContact}>
            Rua Visconde de Pelotas 289 - Passo da Areia, Porto Alegre - Rio Grande do Sul 90540-050</a>
 
-          <a href="Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
+          <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
           target="_blank"
           rel="noopener noreferrer" className={`${styles.navContact} flex items-center gap-2`}>
             <BsTelephone />
@@ -76,7 +76,7 @@ export default function Footer(){
               <BsInstagram className='text-white hover:scale-108 transition-transform duration-500'/>
             </a>
 
-          <a href="Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
+          <a href="https://wa.me/5551998797339?text=Oi%20Dani!%20%F0%9F%8C%BF%20Vi%20seu%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20Pode%20me%20contar%20como%20funciona%3F"
           target="_blank"
           rel="noopener noreferrer">
           <BsWhatsapp className='text-white hover:scale-105 transition-transform duration-500'/>
