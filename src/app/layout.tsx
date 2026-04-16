@@ -48,6 +48,10 @@ export const metadata: Metadata = {
     ],
   },
 
+  verification: {
+    google: 'p-s0vCL23g6sYKpSTBtdWYah0pR352E1VMOycbkCyQ8', 
+  },
+
   manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
