@@ -13,6 +13,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL('https://www.terapiasdocorpo.com.br'),
+
   title: {
     default: "Terapias do Corpo | Fisioterapia Pélvica em Porto Alegre",
     template: "%s | Terapias do Corpo",
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
       "Fisioterapia pélvica, massoterapia e estética dermatofuncional em Porto Alegre. Atendimento acolhedor para todos os corpos.",
     images: [
       {
-        url: "/logo-terapias-do-corpo-1200-630.png",
+        url: "/foto-1200-630-graph.png",
         width: 1200,
         height: 630,
         alt: "Clínica Terapias do Corpo — Porto Alegre",
